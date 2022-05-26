@@ -291,9 +291,6 @@ img {
   height: 20px;
   fill: currentColor;
 }
-.client-item {
-  flex-basis: var(--width-6);
-}
 .client-link {
   display: flex;
   width: 170px;
@@ -404,13 +401,13 @@ img {
   letter-spacing: 0.06em;
   color: var(--header-color);
 }
-.card-text {
+.portfolio-item .card-text {
   padding: var(--item-margin) 0 20px 24px;
   background-color: var(--primary-color);
   border: 1px solid #eeeeee;
 }
-.card-text:hover,
-.card-text:focus {
+.portfolio-item:hover .card-text,
+.portfolio-item:focus .card-text {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .portfolio-text {
